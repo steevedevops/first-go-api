@@ -22,6 +22,9 @@ func (h *Handler) RegisterRoutes(router *mux.Router) {
 }
 
 func (h *Handler) handleLogin(w http.ResponseWriter, r *http.Request) {
+	// get json payload
+	// check if the user exist
+	// if done we create the new user
 
 }
 
